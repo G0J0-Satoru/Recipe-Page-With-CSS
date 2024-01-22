@@ -1,0 +1,179 @@
+
+body{
+    background-color: bisque;
+}
+.container{
+    display:flex;
+    justify-content: center;
+}
+
+
+.card{
+background: white;
+margin-top: 50px;
+border-radius: 20px;
+width: 550px;
+height: 1670px;
+}
+
+.card-image{
+    background-color: white;
+    height: 280px;
+    
+    background-size: cover;
+}
+
+.egg{
+    background-image: url('./image-omelette.jpeg');
+    border-top-right-radius: 20px;
+    border-top-left-radius: 20px;
+
+    
+}
+.desc h1{
+    font-family:Arial, Helvetica, sans-serif;
+    margin-left: 30px;
+
+}
+.desc pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 30px;
+    line-height: 1.5em;
+
+
+
+}
+
+#prepare h1{
+ color: maroon;
+ margin-left: 40px;
+ font-size: 1.5em;
+
+}
+
+.lists{
+    margin-left: 25px;
+    line-height: 1.5em;
+    height: auto;
+    
+}
+.ingredients h1{
+ color: rgb(189, 120, 41);
+ font-size: 1.6em;
+ margin-left: 40px;
+ font-family: 'Times New Roman', Times, serif;
+ text-shadow: 1px 1px black;
+
+}
+
+.list2{
+    margin-left: 25px;
+    line-height: 1.5em;
+    height: auto;
+    
+}
+
+.instructions h1{
+    color: rgb(189, 120, 41);
+    font-size: 1.6em;
+    margin-left: 40px;
+    text-shadow: 1px 1px black;
+
+
+}
+
+.list3{
+    margin-left: 40px;
+}
+
+.Nutrition h1{
+    color: rgb(189, 120, 41);
+    margin-left: 40px;
+    font-size: 1.6em;
+    text-shadow: 1px 1px black;
+
+
+}
+.Nutrition p{
+    margin-left: 40px;
+    line-height: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+table{
+    margin: 10px;
+}
+
+table td{
+    border-bottom: 2px solid rgb(218, 218, 218);
+    height: 50px;
+    width: 1000px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.calories{
+    font-weight: bold ;
+    color:rgb(189, 120, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.carbs{
+    font-weight: bold ;
+    color:rgb(189, 120, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.protien{
+    font-weight: bold ;
+    color:rgb(189, 120, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.fat{
+    font-weight: bold ;
+    color:rgb(189, 120, 41);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.line-breaker{
+border: 1px solid hsl(30, 18%, 87%);
+
+}
+
+
+.lists pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+
+.list2 pre{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.line-breaker2{
+    border: dotted 2px hsl(30, 18%, 87%);
+}
+
+.instructions p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+@media screen and (max-width: 425px) and (min-width: 320px){
+    .card{
+      background: var(--card);
+      width:  100%;
+      margin-inline-start: 0;
+      margin-inline-end: 0;
+      border-radius: 0;
+      padding: 0;
+    }
+}    
+
+.in-desc p{
+
+    line-height: 1.5em;
+}
